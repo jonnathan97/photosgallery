@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos Gallery</title>
+
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <h1>Photos Gallery</h1>
+                <p>Photographs & adventure</p>
+            </div>
+
+            <form>
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Search">
+            </form>
+
+            <div class="categorias" id="categorias">
+                <a href="" class="active">All</a>
+                <a href="">Nature</a>
+                <a href="">Cities</a>
+                <a href="">People</a>
+                <a href="">Animals</a>
+            </div>
+        </header>
+
+
+        <!--Inicio Galeria de fotos-->
+        <section class="grid" id="grid">
+            <!--Inicio People-->
+            <div class="item" data-categoria="people" data-etiquetas="personas mujeres chicas actriz" data-descripcion="Actress">
+                <div class="item-contenido">
+                    <img src="assets/img/persona1.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="people" data-etiquetas="personas mujeres chicas" data-descripcion="Singer">
+                <div class="item-contenido">
+                    <img src="assets/img/persona2.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="people" data-etiquetas="personas cantante singer artist" data-descripcion="Singer">
+                <div class="item-contenido">
+                    <img src="assets/img/cantante.jpg" class="img-border" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="people" data-etiquetas="personas actor hombre chico" data-descripcion="Actor">
+                <div class="item-contenido">
+                    <img src="assets/img/actor.jpg" class="img-border" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="people" data-etiquetas="personas soccer player futbolista" data-descripcion="Soccer Player">
+                <div class="item-contenido">
+                    <img src="assets/img/soccer.jpg" class="img-border" alt="">
+                </div>
+            </div>
+            <!--Fin People-->
+
+
+
+
+            <!--Inicio Animals-->
+            <div class="item" data-categoria="animals" data-etiquetas="animal gato" data-descripcion="Cat">
+                <div class="item-contenido">
+                    <img src="assets/img/cat.jpg" class="img-border" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="animals" data-etiquetas="foca naturaleza  agua" data-descripcion="Seal">
+                <div class="item-contenido">
+                    <img src="assets/img/foca.jpg" class="img-border" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="animals" data-etiquetas="animales osos oso panda" data-descripcion="Panda bear">
+                <div class="item-contenido">
+                    <img src="assets/img/animal2.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="animals" data-etiquetas="leon selva rey lion" data-descripcion="Lion">
+                <div class="item-contenido">
+                    <img src="assets/img/animal1.png" alt="">
+                </div>
+            </div>
+            <!--Fin Animals-->
+
+
+
+            <!--Nature Inicio-->
+            <div class="item" data-categoria="nature" data-etiquetas="neblina niebla frio naturaleza" data-descripcion="Cloudy Day">
+                <div class="item-contenido">
+                    <img src="assets/img/niebla.jpg" class="img-border" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="nature" data-etiquetas="camino bosque via autopista" data-descripcion="Highway">
+                <div class="item-contenido">
+                    <img src="assets/img/camino.jpg" class="img-border" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="nature" data-etiquetas="rio bosque agua river" data-descripcion="River">
+                <div class="item-contenido">
+                    <img src="assets/img/rio.jpg" class="img-border" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="nature" data-etiquetas="montaña naturaleza volcan lago" data-descripcion="Volcano">
+                <div class="item-contenido">
+                    <img src="assets/img/volcan.jpg" class="img-border" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="nature" data-etiquetas="lago lake naturaleza agua atardecer" data-descripcion="Boulevard Lake">
+                <div class="item-contenido">
+                    <img src="assets/img/lago.jpg" class="img-border" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="nature" data-etiquetas="agua naturaleza lago" data-descripcion="Lost Lake">
+                <div class="item-contenido">
+                    <img src="assets/img/paisaje1.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="nature" data-etiquetas="montaña naturaleza frio" data-descripcion="Mountain">
+                <div class="item-contenido">
+                    <img src="assets/img/paisaje2.png" alt="">
+                </div>
+            </div>
+            <!--Nature Fin-->
+
+
+
+            <!--Inicio Cities-->
+            <div class="item" data-categoria="cities" data-etiquetas="quito mitad del mundo ecuador" data-descripcion="Quito - Ecuador">
+                <div class="item-contenido">
+                    <img src="assets/img/quito.jpg" class="img-border" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="cities" data-etiquetas="londres inglaterra ciudades" data-descripcion="London - England">
+                <div class="item-contenido">
+                    <img src="assets/img/londres.jpg" class="img-border" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="cities" data-etiquetas="Alemania munich germany" data-descripcion="Munich - Germany">
+                <div class="item-contenido">
+                    <img src="assets/img/munich.jpg" class="img-border" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="cities" data-etiquetas="ciudades autos new york carros calles" data-descripcion="New York - USA">
+                <div class="item-contenido">
+                    <img src="assets/img/ciudad1.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="cities" data-etiquetas="ciudades chicago autos carros calles" data-descripcion="Chicago - USA">
+                <div class="item-contenido">
+                    <img src="assets/img/ciudad2.png" alt="">
+                </div>
+            </div>
+            <!--Fin Cities-->
+        </section>
+        <!--Fin Galeria de fotos-->
+
+
+
+        <section class="overlay" id="overlay">
+            <div class="contenedor-img">
+                <button id="btn-cerrar"><i class="fas fa-times"></i></button>
+                <img src="" class="img-border" alt="">
+            </div>
+            <p class="des-main">
+                <strong class="descripcion"></strong>
+            </p>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="redes-sociales">
+            <div class="contenedor-icono">
+                <a href="https://www.instagram.com" target="_blank" class="instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="contenedor-icono">
+                <a href="https://www.facebook.com" target="_blank" class="facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+            <div class="contenedor-icono">
+                <a href="https://www.twitter.com" target="_blank" class="twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p class="text-copyright">2022 <strong>Photos Gallery.</strong> All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
